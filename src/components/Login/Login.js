@@ -36,8 +36,9 @@ const Login = () => {
         newUserInfo.image = photoURL;
         newUserInfo.isLoggedIn = true;
         newUserInfo.error = "";
+        newUserInfo.role = "user";
         newUserInfo.handleSignOut = handleSignOut;
-        
+
         setLoggedUserData(newUserInfo);
         history.replace(from);
       })
@@ -59,6 +60,7 @@ const Login = () => {
         newUserInfo.image = "";
         newUserInfo.isLoggedIn = false;
         newUserInfo.error = "";
+        newUserInfo.role = "";
         newUserInfo.handleSignOut = handleSignOut;
         setLoggedUserData(newUserInfo);
       });

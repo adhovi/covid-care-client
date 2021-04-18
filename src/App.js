@@ -26,7 +26,7 @@ function App() {
     image: "",
     error: "",
     handleSignOut: null,
-    role: "user",
+    role: "",
   });
 
   return (

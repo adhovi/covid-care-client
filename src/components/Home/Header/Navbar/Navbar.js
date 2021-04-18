@@ -73,7 +73,7 @@ const Navbar = () => {
                 Reviews
               </a>
             </li>
-            {loggedUserData.role !== "admin" && (
+            {loggedUserData.role === "user" && (
               <li className="nav-item">
                 <Link className="nav-link" to="/dashboard/bookings">
                   Dashboard

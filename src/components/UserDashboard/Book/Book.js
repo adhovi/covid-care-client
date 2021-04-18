@@ -128,6 +128,11 @@ const Book = () => {
                   Product added Successfully.
                 </span>
               } */}
+              {!paymentSuccess && (
+                <h6 className=" ps-3 pt-4 text-md-start text-center">
+                  Your Service charged will be <b>৳{selectedService.price}</b>
+                </h6>
+              )}
               {paymentSuccess && (
                 <div className="row">
                   <div className="col-md-8">

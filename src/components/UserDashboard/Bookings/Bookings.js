@@ -51,7 +51,7 @@ const Bookings = () => {
                         </div>
                       </div>
                       <h6 className="mt-4">{booking.service.name}</h6>
-                      <p className="mt-2">
+                      <p className="mt-3">
                         <small>{booking.service.description}</small>
                       </p>
                     </div>
