@@ -1,0 +1,18 @@
+.ash-bg {
+  background: #edf5ff;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.bold {
+  font-weight: 700;
+  font-size: 48px;
+}
+.corona-card {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 40px 0px rgba(214, 214, 214, 0.3);
+}
+.sub-title {
+  color: #50658e;
+}

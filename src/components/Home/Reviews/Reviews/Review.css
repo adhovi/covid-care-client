@@ -1,0 +1,18 @@
+.identity img {
+  height: 4rem;
+  width: 4rem;
+}
+.identity h4,
+h5 {
+  margin: 0;
+}
+.review-card {
+  padding: 0 20px;
+}
+.review-paragraph {
+  color: #666666;
+  font-weight: 300;
+}
+.light-bg{
+  background: #fafcff;
+}

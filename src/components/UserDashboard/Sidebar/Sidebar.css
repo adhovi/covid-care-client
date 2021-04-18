@@ -1,0 +1,30 @@
+.menu-item ul {
+  margin: 0;
+}
+.menu-item a {
+  text-decoration: none;
+  color:#878787;
+}
+.menu-item ul li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.menu-item img {
+  margin-right: 10px;
+}
+.list-item img {
+  width: 7%;
+}
+.active-bg {
+  font-weight: 700;
+  color: #f86168;
+  padding: 8px;
+}
+.my-link,
+.my-link:hover {
+  text-decoration: none;
+  color: white;
+}

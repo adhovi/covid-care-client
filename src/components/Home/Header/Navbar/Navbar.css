@@ -1,0 +1,19 @@
+.my-nav ul li a {
+  font-weight: 500;
+}
+.my-nav ul li a:hover,
+.my-nav ul li a:active {
+  color: #2a81ea !important;
+}
+.my-nav {
+  background: #f7f9fe;
+}
+.pro-pic {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-item {
+  width: 60px;
+}

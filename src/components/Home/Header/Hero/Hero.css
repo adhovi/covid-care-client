@@ -1,0 +1,27 @@
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  color: #50658e;
+  letter-spacing: 0.5px;
+}
+.redish {
+  color: #f86168;
+}
+.paragrapgh {
+  color: #666666;
+}
+.my-btn {
+  color: white;
+  font-weight: 500;
+  background-color: #2a81ea;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.my-btn:hover {
+  color: white;
+}
+
+.icon {
+  font-size: 20px;
+}

@@ -1,0 +1,15 @@
+.symptom-card {
+  border: none;
+}
+.symptom-card:hover {
+  animation: go-up 1s infinite alternate ease-in-out;
+}
+
+@keyframes go-up {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}

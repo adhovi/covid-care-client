@@ -1,0 +1,13 @@
+.my-btn2 {
+  color: white;
+  font-weight: 500;
+  background-color: #2a81ea;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+.my-btn2:hover {
+  color: white !important;
+}
+.dark-bg {
+  background: #fcfdff;
+}

@@ -1,0 +1,52 @@
+.sub-heading {
+  font-weight: 700;
+  color: #50658e;
+}
+.blue {
+  color: #2a81ea;
+}
+.space-60px {
+  margin-top: 60px;
+}
+.my-card {
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 20px;
+}
+.my-card:hover {
+  box-shadow: 0 5px 30px 0px rgba(233, 231, 231, 0.534);
+}
+.my-img img {
+  height: 10rem;
+  object-fit: contain;
+  display: block;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+.my-card:hover img {
+  animation: scale-icon 1s alternate infinite ease-in-out;
+}
+@keyframes scale-icon {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 25px;
+  }
+}
+.bolder {
+  font-weight: 600;
+}
+.my-text {
+  height: 70px;
+  overflow: hidden;
+  color: #666666;
+}
+.service a {
+  text-decoration: none;
+}
+.service-title {
+  color: black !important;
+}
