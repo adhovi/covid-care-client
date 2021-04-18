@@ -30,7 +30,7 @@ const Services = () => {
                     : `/booking/${service._id}`
                 }
               >
-                <div className="card text-center my-card">
+                <div className="card text-center my-card my-3">
                   <div className="my-img mb-3">
                     <img
                       src={service.img}
