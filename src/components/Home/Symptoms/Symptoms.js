@@ -23,28 +23,28 @@ const symptoms = [
     img: img2,
   },
   {
-    id: 1,
+    id: 3,
     title: "Strong Headache",
     description:
       "Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.",
     img: img3,
   },
   {
-    id: 1,
+    id: 4,
     title: "Shortness of Breath",
     description:
       "Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.",
     img: img4,
   },
   {
-    id: 1,
+    id: 5,
     title: "Confusion",
     description:
       "Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.",
     img: img5,
   },
   {
-    id: 1,
+    id: 6,
     title: "Sore Throat",
     description:
       "Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.",
@@ -63,7 +63,7 @@ const Symptoms = () => {
       </p>
       <div className="row mt-2 px-5">
         {symptoms.map((symptom) => {
-          return <Symptom key={symptom._id} symptom={symptom}></Symptom>;
+          return <Symptom key={symptom.id} symptom={symptom}></Symptom>;
         })}
       </div>
     </div>

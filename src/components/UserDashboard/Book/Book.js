@@ -4,7 +4,7 @@ import "./Book.css";
 
 import { useForm } from "react-hook-form";
 import { UserContext } from "../../../App";
-import { useHistory, useParams } from "react-router";
+import { useHistory, useParams } from "react-router-dom";
 import Payment from "../Payment/Payment";
 
 const Book = () => {

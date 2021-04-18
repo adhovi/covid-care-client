@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import { UserContext } from "../../../../App";
 import logo from "../../../../images/logo.png";
 import "./Navbar.css";
@@ -25,7 +25,6 @@ const Navbar = () => {
         }
       });
   }, []);
-  console.log(loggedUserData);
 
   const gotoLogin = () => {
     history.push("/login");

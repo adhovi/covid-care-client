@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.scss";
-import { useEffect, useState } from "react/cjs/react.development";
 
 SwiperCore.use([Pagination, Autoplay]);
 

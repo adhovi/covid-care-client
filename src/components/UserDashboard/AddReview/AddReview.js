@@ -4,7 +4,7 @@ import "./AddReview.css";
 
 import { useForm } from "react-hook-form";
 import { UserContext } from "../../../App";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 
 const AddReview = () => {
   const history = useHistory();
