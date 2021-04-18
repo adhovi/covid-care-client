@@ -5,7 +5,7 @@ import LiveUpdate from "./LiveUpdate/LiveUpdate";
 import NewsLetter from "./NewsLetter/NewsLetter";
 import Reviews from "./Reviews/Reviews/Reviews";
 import Services from "./Services/Services/Services";
-import Symptoms from "./Symptoms/Symptoms";
+import Symptoms from "./Symtomps/Symptoms";
 
 const Home = () => {
   return (
