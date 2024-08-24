@@ -8,7 +8,7 @@ const OrderList = () => {
   const { image } = loggedUserData;
   const [orders, setOrders] = useState([]);
   useEffect(() => {
-    fetch("https://covid-medi-care.herokuapp.com/orders")
+    fetch("https://covid-care-server.vercel.app/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
@@ -29,7 +29,7 @@ const OrderList = () => {
     setOrders(newOrders);
 
     // Storing Data in database
-    fetch("https://covid-medi-care.herokuapp.com/updateOrderStatus", {
+    fetch("https://covid-care-server.vercel.app/updateOrderStatus", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
