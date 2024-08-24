@@ -19,7 +19,7 @@ const Book = () => {
   const [paymentSuccess, setPaymentSuccess] = useState("");
 
   useEffect(() => {
-    fetch(`https://covid-medi-care.herokuapp.com/service/${id}`)
+    fetch(`https://covid-care-server.vercel.app/service/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setSelectedService(data[0]);
@@ -49,7 +49,7 @@ const Book = () => {
     if (booking.service) {
       console.log(booking);
       handlePayment();
-      fetch("https://covid-medi-care.herokuapp.com/addBooking", {
+      fetch("https://covid-care-server.vercel.app/addBooking", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(booking),
