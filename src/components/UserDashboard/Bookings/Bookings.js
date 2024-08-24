@@ -8,7 +8,7 @@ const Bookings = () => {
   const { email, image } = loggedUserData;
   const [bookings, setBookings] = useState([]);
   useEffect(() => {
-    fetch(`https://covid-medi-care.herokuapp.com/bookings?email=${email}`)
+    fetch(`https://covid-care-server.vercel.app/bookings?email=${email}`)
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, []);
