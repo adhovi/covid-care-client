@@ -41,7 +41,7 @@ const Reviews = () => {
   const [reviewData, setReviewData] = useState([]);
 
   useEffect(() => {
-    fetch("https://covid-medi-care.herokuapp.com/reviews")
+    fetch("https://covid-care-server.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviewData(data));
   }, []);
