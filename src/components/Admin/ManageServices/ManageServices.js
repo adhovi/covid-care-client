@@ -9,14 +9,14 @@ const ManageServices = () => {
   const { image } = loggedUserData;
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("https://covid-care-server.vercel.app//services")
+    fetch("https://covid-care-server.vercel.app/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
 
   const deleteService = (id) => {
     console.log(id);
-    fetch(`https://covid-care-server.vercel.app//deleteService/${id}`, {
+    fetch(`https://covid-care-server.vercel.app/deleteService/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
