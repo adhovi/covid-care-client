@@ -23,7 +23,7 @@ const AddService = () => {
 
   const onSubmit = () => {
     if (name && price && description && img) {
-      fetch("https://covid-medi-care.herokuapp.com/addService", {
+      fetch("https://covid-care-server.vercel.app/addService", {
         method: "POST",
         headers: {
           "content-type": "application/json",
