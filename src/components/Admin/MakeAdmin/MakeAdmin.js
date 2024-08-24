@@ -17,7 +17,7 @@ const MakeAdmin = () => {
   const onSubmit = () => {
     console.log(admin);
     if (admin.email) {
-      fetch("https://covid-medi-care.herokuapp.com/makeAdmin", {
+      fetch("https://covid-care-server.vercel.app/makeAdmin", {
         method: "POST",
         headers: {
           "content-type": "application/json",
