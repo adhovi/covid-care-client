@@ -24,7 +24,7 @@ const AddReview = () => {
 
   const onSubmit = () => {
     if (review.userName && review.designation && review.description) {
-      fetch("https://covid-medi-care.herokuapp.com/addReview", {
+      fetch("https://covid-care-server.vercel.app/addReview", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(review),
