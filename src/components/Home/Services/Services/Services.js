@@ -7,7 +7,7 @@ const Services = () => {
   const [loggedUserData] = useContext(UserContext);
   const [servicesData, setServicesData] = useState([]);
   useEffect(() => {
-    fetch("https://covid-medi-care.herokuapp.com/services")
+    fetch("https://covid-care-server.vercel.app/services")
       .then((res) => res.json())
       .then((data) => setServicesData(data));
   }, []);
