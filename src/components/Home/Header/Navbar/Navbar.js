@@ -11,7 +11,7 @@ const Navbar = () => {
   const history = useHistory();
 
   useEffect(() => {
-    fetch("https://covid-medi-care.herokuapp.com/admin", {
+    fetch("https://covid-care-server.vercel.app/admin", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ email: loggedUserData.email }),
